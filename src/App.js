@@ -1,7 +1,9 @@
-function App() {
+import RestaurantScreen from './components/RestaurantScreen';
+
+export default function App() {
   return (
-    <div>Hello, world.</div>
+    <div>
+    <RestaurantScreen />
+    </div>
   );
 }
-
-export default App;
