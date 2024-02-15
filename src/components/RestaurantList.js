@@ -2,8 +2,6 @@ import {useEffect} from 'react';
 import {connect} from 'react-redux';
 import {loadRestaurants} from '../store/restaurants/actions';
 
-
-
 export function RestaurantList({loadRestaurants, restaurants}) {
     useEffect(() => {
         loadRestaurants();
